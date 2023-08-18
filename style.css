@@ -25,6 +25,11 @@ html{
     scroll-behavior: smooth;
 }
 
+
+section{
+padding:2rem 9;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -213,10 +218,9 @@ text-decoration: underline;
     display: none;
 }
 
-
-
-
-
+.home{
+    display: flex;
+}
 
 
 
@@ -248,7 +252,12 @@ text-decoration: underline;
     background: #333;
     border-top: .1rem solid rgba(255,255,255,.2);
     padding: 1rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+}
 
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);    
+    }
 
     header .navbar a{
         display: block;
@@ -257,5 +266,10 @@ text-decoration: underline;
         margin: 1.5rem 0;
         background: #222;
     }
-   }
+}
+
+   @media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
 }
