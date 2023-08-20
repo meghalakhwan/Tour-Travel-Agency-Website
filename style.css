@@ -30,6 +30,24 @@ section{
 padding:2rem 9;
 }
 
+.heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.heading span{
+font-size: 3.5rem;
+background: rgba(255,1165,0, 0.2);
+color: var(--orange);
+border-radius: .5rem;
+padding: .2rem 1rem;
+
+}
+
+.heading span.space{
+    background: none;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -305,5 +323,9 @@ text-decoration: underline;
    @media (max-width:450px){
     html{
         font-size: 50%;
+    }
+
+    .heading span{
+        font-size: 2.5rem;
     }
 }
