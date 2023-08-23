@@ -94,7 +94,7 @@ header .logo span {
 header .navbar a {
     color: #fff;
     font-size: 2rem;
-    margin: 0 .8rem;
+    margin:0 .8rem;
 
 }
 
@@ -417,16 +417,17 @@ header .search-bar-container label:hover {
 .contact .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap:1.5rem;
     align-items: center;
 }
 
-.contact .row .image {
-    flex: 1 1 35rem;
+.contact .row .image{
+    flex:1 1 35rem;
 }
 
-.contact .row .image img {
+.contact .row .image img{
     width: 100%;
+    
 }
 
 .contact .row .form {

@@ -13,7 +13,7 @@ window.onscroll = () =>{
     loginForm.classList.remove('active');
 }
 
-menuBtn.addEventListener('click', () =>{
+menu.addEventListener('click', () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 });
