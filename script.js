@@ -16,7 +16,8 @@ window.onscroll = () =>{
 menu.addEventListener('click', () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
-});
+}
+);
 
 searchBtn.addEventListener('click', () =>{
     searchBtn.classList.toggle('fa-times');
@@ -25,8 +26,8 @@ searchBtn.addEventListener('click', () =>{
 
 formBtn.addEventListener('click', () =>{
     loginForm.classList.add('active');
-})
+});
 
 formClose.addEventListener('click', () =>{
     loginForm.classList.remove('active');
-})
+});
